@@ -1,0 +1,18 @@
+git remote add origin "https" - add origin
+git pull master - fetch all the files from the central repository to local
+git status - tells you which files are added to index
+git add - lets you add the file to index (add . adds all the files,)
+git commit -m "" - it commits the chnages to github
+git log - gives you all the info of the changes
+git branch branchname - creates a branch
+git checkout branchname - moves to the branch
+git merge sourcebranchname - mergers the work (you shoud be in the destination branch before merging)
+git rebase master -
+git config --global/local user.name/user.email -
+git clone "sshlink" - clones all the file from remoterepo
+git pull origin master - pulls all the master from the repo
+git push origin master -pushes the changes in the repo
+
+git stash -u - moves the files without commit (list/show/apply)
+git log - gives log
+git revert -  
